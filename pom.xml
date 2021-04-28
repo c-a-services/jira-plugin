@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>4.17</version>
+    <version>4.18</version>
     <relativePath />
   </parent>
 
@@ -226,7 +226,7 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>jackson2-api</artifactId>
-      <version>2.12.1</version>
+      <version>2.12.3</version>
     </dependency>
 
     <dependency>
@@ -257,7 +257,7 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>p4</artifactId>
-      <version>1.11.3</version>
+      <version>1.11.4</version>
       <optional>true</optional>
       <exclusions>
         <exclusion>
@@ -322,7 +322,7 @@
       <dependency>
         <groupId>io.jenkins.tools.bom</groupId>
         <artifactId>bom-2.249.x</artifactId>
-        <version>23</version>
+        <version>29</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
