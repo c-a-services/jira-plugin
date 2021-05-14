@@ -16,7 +16,7 @@
   <url>https://github.com/jenkinsci/jira-plugin</url>
 
   <properties>
-    <revision>3.3</revision>
+    <revision>3.4</revision>
     <changelist>-SNAPSHOT</changelist>
     <gitHubRepo>jenkinsci/jira-plugin</gitHubRepo>
     <java.level>8</java.level>
@@ -257,7 +257,7 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>p4</artifactId>
-      <version>1.11.4</version>
+      <version>1.11.5</version>
       <optional>true</optional>
       <exclusions>
         <exclusion>
